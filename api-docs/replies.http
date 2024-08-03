@@ -1,0 +1,22 @@
+GET http://localhost:8000/replies
+
+### Post
+POST http://localhost:8000/replies
+Content-Type: application/json
+
+{
+    "reply": "siang juga ",
+    "threadId": "66adada680d4beb0d23ef28d"
+}
+
+### update
+PUT http://localhost:8000/replies/66adb5452b1d6fd16046a801
+Content-Type: application/json
+
+{
+    "reply": "siang jugaaaa",
+    "threadId": "66adada680d4beb0d23ef28d"
+}
+
+### delete
+DELETE http://localhost:8000/replies/66adb5452b1d6fd16046a801

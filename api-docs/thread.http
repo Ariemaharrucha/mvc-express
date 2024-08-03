@@ -1,0 +1,21 @@
+GET http://localhost:8000/thread
+
+### Post
+POST http://localhost:8000/thread
+Content-Type: application/json
+
+{
+    "content": "hallo selamat pagi",
+    "userId": "66ade6c4c3395ac50be800a3"
+}
+
+### update
+PUT http://localhost:8000/thread/66adeaa65526d4f6c5aa7caf
+Content-Type: application/json
+
+{
+    "content": "selamat pagi ke siang !!!"
+}
+
+### delete
+DELETE http://localhost:8000/thread/66adb2a04cac60ba718fe94f

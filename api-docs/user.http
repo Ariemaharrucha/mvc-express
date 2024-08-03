@@ -1,0 +1,24 @@
+GET http://localhost:8000/user
+
+### Post
+POST http://localhost:8000/user
+Authorization: 
+Content-Type: application/json
+
+{
+    "name": "alok",
+    "email": "alok@gmail.com",
+    "password": "5ayhai12"
+}
+
+### update
+PUT http://localhost:8000/user/66ade6c4c3395ac50be800a3
+Content-Type: application/json
+
+{
+    "name": "kaizer",
+    "email": "kaizer@gmail.com"
+}
+
+### delete
+DELETE http://localhost:8000/user/66adad8780d4beb0d23ef28a
